@@ -193,7 +193,7 @@ if (form) {
       ok = false;
     }
     if (!validarCorreo(correo.value.trim())) {
-      mostrarError(correo, "Ingresa un correo válido, por ejemplo nombre@example.com.");
+      mostrarError(correo, "Ingresa un correo válido, por ejemplo nombre@gmail.com.");
       fallos.push("correo");
       ok = false;
     }
